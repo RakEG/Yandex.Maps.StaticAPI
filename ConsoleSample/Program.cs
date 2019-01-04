@@ -29,10 +29,10 @@ namespace ConsoleSample
             Pm pm3 = new Pm(56.00891, 92.85581, Pm.Color.nt, Pm.Size.s, 3);
             Pm2 pm4 = new Pm2(56.00895, 92.85679);
             Pm2 pm5 = new Pm2(56.00702, 92.85713, Pm2.Color.gr, Pm2.Size.l, 5);
-            Vk pm6 = new Vk(56.00690, 92.85552, Vk.color.bk);
-            Vector pm7 = new Vector(56.00613, 92.85574, Vector.mark.comma);
-            Vector pm8 = new Vector(56.00574, 92.85283, Vector.mark.ya_ru);
-            Vector pm9 = new Vector(56.00672, 92.85258, Vector.mark.home);
+            Vk pm6 = new Vk(56.00690, 92.85552, Vk.Color.bk);
+            Vector pm7 = new Vector(56.00613, 92.85574, Vector.Mark.comma);
+            Vector pm8 = new Vector(56.00574, 92.85283, Vector.Mark.ya_ru);
+            Vector pm9 = new Vector(56.00672, 92.85258, Vector.Mark.home);
             Flag pm10 = new Flag(56.00661, 92.84937);
             List<MarkBase> listMark = new List<MarkBase>() { pm1, pm2, pm3, pm4, pm5, pm6, pm7, pm8, pm9, pm10 };
             Pt pt = new Pt(listMark);

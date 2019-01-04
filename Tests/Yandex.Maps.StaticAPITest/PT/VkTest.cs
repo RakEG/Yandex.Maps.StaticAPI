@@ -18,7 +18,7 @@ namespace YandexMapsStaticApiTest.PT
         [Test]
         public void PtFlagGetPartUrlDefaultBk()
         {
-            Vk Vk = new Vk(lat, lon,Vk.color.bk);
+            Vk Vk = new Vk(lat, lon,Vk.Color.bk);
 
             string result = $"{Vk.Lon.ToString().Replace(',', '.')}" +
                 $",{Vk.Lat.ToString().Replace(',', '.')}," +
@@ -30,7 +30,7 @@ namespace YandexMapsStaticApiTest.PT
         [Test]
         public void PtFlagGetPartUrlDefaultGr()
         {
-            Vk Vk = new Vk(lat, lon, Vk.color.gr);
+            Vk Vk = new Vk(lat, lon, Vk.Color.gr);
 
             string result = $"{Vk.Lon.ToString().Replace(',', '.')}" +
                 $",{Vk.Lat.ToString().Replace(',', '.')}," +

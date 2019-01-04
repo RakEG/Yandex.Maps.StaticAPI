@@ -18,7 +18,7 @@ namespace YandexMapsStaticApiTest.PT
         [Test]
         public void PtVectorGetPartUrlDefaultComma()
         {
-            Vector Vector = new Vector(lat, lon, Vector.mark.comma);
+            Vector Vector = new Vector(lat, lon, Vector.Mark.comma);
 
             string result = $"{Vector.Lon.ToString().Replace(',', '.')}" +
                 $",{Vector.Lat.ToString().Replace(',', '.')}," +
@@ -30,7 +30,7 @@ namespace YandexMapsStaticApiTest.PT
         [Test]
         public void PtVectorGetPartUrlDefaultYa_ru()
         {
-            Vector Vector = new Vector(lat, lon, Vector.mark.ya_ru);
+            Vector Vector = new Vector(lat, lon, Vector.Mark.ya_ru);
 
             string result = $"{Vector.Lon.ToString().Replace(',', '.')}" +
                 $",{Vector.Lat.ToString().Replace(',', '.')}," +
