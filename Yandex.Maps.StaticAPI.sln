@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CAB778F6-F4B8-4B21-ABBE-66F30C07BBFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yandex.Maps.StaticAPITest", "Tests\Yandex.Maps.StaticAPITest\Yandex.Maps.StaticAPITest.csproj", "{251EC7B7-7E6C-4027-9912-A7E4AF37A415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yandex.Maps.StaticAPI", "Yandex.Maps.StaticAPI\Yandex.Maps.StaticAPI.csproj", "{AA5873EF-B36A-4683-B3F9-170DFA4218C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSample", "ConsoleSample\ConsoleSample.csproj", "{15C0690E-3AE7-4259-B8C5-4EAF4917AE1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{251EC7B7-7E6C-4027-9912-A7E4AF37A415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251EC7B7-7E6C-4027-9912-A7E4AF37A415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251EC7B7-7E6C-4027-9912-A7E4AF37A415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251EC7B7-7E6C-4027-9912-A7E4AF37A415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5873EF-B36A-4683-B3F9-170DFA4218C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5873EF-B36A-4683-B3F9-170DFA4218C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5873EF-B36A-4683-B3F9-170DFA4218C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5873EF-B36A-4683-B3F9-170DFA4218C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C0690E-3AE7-4259-B8C5-4EAF4917AE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C0690E-3AE7-4259-B8C5-4EAF4917AE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C0690E-3AE7-4259-B8C5-4EAF4917AE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C0690E-3AE7-4259-B8C5-4EAF4917AE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{251EC7B7-7E6C-4027-9912-A7E4AF37A415} = {CAB778F6-F4B8-4B21-ABBE-66F30C07BBFE}
+	EndGlobalSection
+EndGlobal
