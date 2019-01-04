@@ -1,5 +1,7 @@
 # Yandex.Maps.StaticAPI
-Не официальная C# библиотека позволяющая формировать URL для получения статических изображений Yandex карт.
+C# library for working with Yandex Maps Static API 1.x
+
+C# библиотека позволяющая формировать URL для получения статических изображений Yandex карт.
 ***
 Ссылки на официальный ресурс Yandex.Maps.StaticAPI
 -
